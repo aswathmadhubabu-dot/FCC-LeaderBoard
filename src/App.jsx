@@ -1,3 +1,9 @@
+/*
+ * @Author: Aswath MadhuBabu 
+ * @Date: 2017-06-25 15:49:05 
+ * @Last Modified by:   Aswath MadhuBabu 
+ * @Last Modified time: 2017-06-25 15:49:05 
+ */
 import React, { Component } from 'react';
 import './App.css';
 
@@ -47,11 +53,11 @@ class App extends Component {
 
     render() {
         return (<div className='main'>
-        
-<button className='btn btn-success text-center' onClick={() => this.search()}>Recent &nbsp; <i class="fa fa-history"></i>
-</button>
+
+            <button className='btn btn-success text-center' onClick={() => this.search()}>Recent &nbsp; <i class="fa fa-history"></i>
+            </button>
             <button className='btn btn-success text-center' onClick={() => this.searchall()}>
-All Time &nbsp; <i class="fa fa-rocket"></i></button>
+                All Time &nbsp; <i class="fa fa-rocket"></i></button>
             <div className="title text-center">FreeCodeCamp Leaderboard</div>
             <table className='table table-bordered display' id="mytable" cellSpacing="0" width="100%" data={this.state.users}>
                 <thead>
