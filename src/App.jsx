@@ -47,14 +47,7 @@ class App extends Component {
 
     render() {
         return (<div className='main'>
-        <div class="card card-block">
-    <h4 class="card-title">Panel title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <div class="flex-row">
-        <a class="card-link">Card link</a>
-        <a class="card-link">Another link</a>
-    </div>
-</div>
+        
 <button className='btn btn-success text-center' onClick={() => this.search()}>Recent &nbsp; <i class="fa fa-history"></i>
 </button>
             <button className='btn btn-success text-center' onClick={() => this.searchall()}>
