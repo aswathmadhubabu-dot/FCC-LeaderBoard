@@ -47,6 +47,7 @@ class App extends Component {
 
     render() {
         return (<div className='main'>
+        
             <button className='btn btn-success text-center' onClick={() => this.search()}>Recent</button>
             <button className='btn btn-success text-center' onClick={() => this.searchall()}>All Time</button>
             <div className="title text-center">FreeCodeCamp Leaderboard</div>
