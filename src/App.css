@@ -1,0 +1,8 @@
+tr .avatar {
+    border-right: 1px solid transparent;
+    vertical-align: middle;
+    width: 4rem;
+}
+tr td {
+    border: 1px solid lightgray;
+}
