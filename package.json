@@ -17,5 +17,5 @@
     "eject": "react-scripts eject",
     "deploy" : "npm run build&&gh-pages -d build"
   },
-  "homepage": "https://<github-username>.github.io/FCC-LeaderBoard"
+  "homepage": "https://ases573.github.io/FCC-LeaderBoard"
 }
