@@ -48,8 +48,10 @@ class App extends Component {
     render() {
         return (<div className='main'>
         
-            <button className='btn btn-success text-center' onClick={() => this.search()}>Recent</button>
-            <button className='btn btn-success text-center' onClick={() => this.searchall()}>All Time</button>
+<button className='btn btn-success text-center' onClick={() => this.search()}>Recent &nbsp; <i class="fa fa-history" aria-hidden="true"></i>
+</button>
+            <button className='btn btn-success text-center' onClick={() => this.searchall()}>
+All Time &nbsp; <i class="fa fa-rocket" aria-hidden="true"></i></button>
             <div className="title text-center">FreeCodeCamp Leaderboard</div>
             <table className='table table-bordered display' id="mytable" cellSpacing="0" width="100%" data={this.state.users}>
                 <thead>
