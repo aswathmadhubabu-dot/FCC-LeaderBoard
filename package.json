@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.7"
+    "react-scripts": "3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
